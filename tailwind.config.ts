@@ -47,6 +47,12 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        research: {
+          primary: "hsl(var(--research-primary))",
+          secondary: "hsl(var(--research-secondary))",
+          accent: "hsl(var(--research-accent))",
+          muted: "hsl(var(--research-muted))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -62,6 +68,16 @@ export default {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      backgroundImage: {
+        'gradient-primary': 'var(--gradient-primary)',
+        'gradient-accent': 'var(--gradient-accent)',
+        'gradient-subtle': 'var(--gradient-subtle)',
+      },
+      boxShadow: {
+        'research': 'var(--shadow-research)',
+        'card': 'var(--shadow-card)',
+        'glow': 'var(--shadow-glow)',
       },
       keyframes: {
         "accordion-down": {
